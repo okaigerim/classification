@@ -1,3 +1,5 @@
+#Predict a gender from given data
+
 from sklearn import tree
 
 clf = tree.DecisionTreeClassifier()
@@ -20,3 +22,6 @@ result_3 = clf.predict([[160, 47, 36]])
 
 
 print("1-{}, 2-{}, 3-{}".format(result_1, result_2, result_3))
+
+
+#credits go to @||Source||
